@@ -355,10 +355,11 @@ if __name__ == "__main__":
     rb_tree = Rb_tree()
 
     #x = [44,22,3,61,34,89,79,65,5,28]
-    x = random.sample(range(1, 100000), 10000)
+    x = [20,10,15,12]
+    #x = random.sample(range(1, 100000), 10000)
     for v in x:
         rb_tree.insert(rb_tree.create_node(v));
-
+    pdb.set_trace() 
     odd = True
     for v in x:
         if odd == True:
