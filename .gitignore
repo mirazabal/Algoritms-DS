@@ -1,0 +1,7 @@
+*.out
+*.txt
+*.gcda
+*.gcno
+*.gcov
+
+*.ycm_extra_conf.py
