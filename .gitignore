@@ -3,5 +3,7 @@
 *.gcda
 *.gcno
 *.gcov
+*.png
+*.html
 
 *.ycm_extra_conf.py
